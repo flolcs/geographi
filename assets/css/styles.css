@@ -1,0 +1,46 @@
+/*=============== FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --color1: #000000;
+  --color2: #6CB48F;
+  --color3: #FCA034;
+  --color4: #FFFFFF;
+  --color5: #FBD243;
+  --color6 :#707581;
+}
+
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background-color: var(--color3);
+}
+
+body {
+  font-size: 1rem;
+  color: var(--color1);
+  background-color: var(--color4);
+}
+
+/*=============== HEADER ===============*/
+
+/*=============== MAIN ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+/*=============== RESPONSIVE ===============*/
+@media (min-width: 1024px) and (max-width: 1440px) {
+}
