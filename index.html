@@ -11,12 +11,40 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="d-flex justify-content-between align-items-center">
+        <nav>
+            <ul class="d-flex justify-content-between align-items-center">
+                <li><img src="./assets/img/logo.png" alt="logo"></li>
+                <li><a class="menu-active" href="">HOME</a></li>
+                <li><a href="">LESSON</a></li>
+                <li><a href="">ASSIGNMENT</a></li>
+            </ul>
+        </nav>
+        <li><i class="ri-menu-3-line"></i></li>
     </header>
     <main>
+        <section class="gauche d-flex flex-column justify-content-between">
+            <h1>Favourite Topic &#11088</h1> 
+            <h2>HYDROLOGY PROCESS</h2>
+            <h3>Understanding the Hydrological Cycle : <br> Types and Processes Occurrence</h3>
+            <button id="btn-topic">SEE OTHER TOPIC</button>
+        </section>
+        <section class="droite">
+            <img id="fond" src="./assets/img/fond.png" alt="fond">
+            <img id="photo" src="./assets/img/photo.png" alt="schema">
+            <div class="infosbulles condensation">&#9928 Condensation</div>
+            <div class="infosbulles evaporation">&#128167 Evaporation</div>
+            <div class="infosbulles precipitation">&#127754 Précipitation</div>
+        </section>
     </main>
-    <footer>
+    <footer class="d-flex justify-content-between align-items-center">
+        <div class="footer-gauche d-flex justify-content-between align-items-center">
+        </div>
+        <div>
+            <button class="chat"><i class="ri-wechat-line"></i>CHAT</button>
+        </div>
     </footer>
 <script src="./assets/js/main.js"></script>
 </body>
 </html>
+
